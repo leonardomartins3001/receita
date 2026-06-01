@@ -1,11 +1,11 @@
-* {
-    margin: 0;
+*{
+    margin: 0%;
     padding: 0;
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;  
+    -webkit-font-smoothing: antialiassed;
 }
 
-body {
+body{
     background-color: #f3e5d7;
 }
 
@@ -24,8 +24,6 @@ div img {
     margin-bottom: 40px;
 }
 
-
-
 h1, h2 {
     font-family: 'Lora', serif;
 }
@@ -38,8 +36,7 @@ h1 {
 }
 
 p, li, th, td {
-    font-family: 'Outfit', sans-serif;
-
+    font-size: 'Outfit', sans-serif;
 }
 
 p {
@@ -49,31 +46,34 @@ p {
 }
 
 .tempo {
-    background-color: #fff7fb;
-    padding: 28px;
-    border-radius: 12px;
-    margin-bottom: 32px;
+  background-color: #fff7fb; 
+  padding: 28px;
+  border-radius: 12px;
+  margin-bottom: 32px ; 
 }
 
 .tempo h2 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 100%;
     font-family: 'Outfit', sans-serif;
-    color: #7a284e;
-    margin-bottom: 16px;}
+    color:#7a284e;
+    margin-bottom: 16px;
+}
 
-   li {
+li {
     padding-left: 10px;
+    color: #5f564d;
 }
 
 li + li {
-    margin-top: 8px;
+   margin-top: 8px;
 }
 
-ol, ul  {
+ol,ul {
     margin-left: 20px;
 }
+
 
 .tempo li::marker {
     color: #7a284e;
@@ -87,9 +87,9 @@ h2 {
     margin-bottom: 24px;
 }
 
-.ingredientes li::marker {
+.ingredientes li::marker{
     font-size: 12px;
-    color: #854632;
+    color:#854632;
 }
 
 hr {
@@ -98,7 +98,7 @@ hr {
 }
 
 .modo li::marker {
-    color: #854632;
+    color:#854632;
     font-weight: 700;
 }
 
@@ -110,7 +110,7 @@ table {
     width: 100%;
 }
 
-th, td {
+th,td {
     border-bottom: 1px solid #e3ddd7;
     width: 100%;
 }
@@ -121,7 +121,7 @@ tr {
 
 th {
     text-align: left;
-    margin-left: 32px;
+    padding-left: 32px;
     font-weight: 400;
     color: #5f564d;
     line-height: 150%;
@@ -136,15 +136,15 @@ td {
 
 tr + tr th,
 tr + tr td {
-    padding-block: 12px;
+   padding-block: 12px;
 }
 
-tr:nth-of-type(1) th,
+tr:nth-of-type(1) th
 tr:nth-of-type(1) td {
-    padding-bottom: 12px;
+    padding-bottom: 12px ;
 }
 
 tr:nth-of-type(4) th,
 tr:nth-of-type(4) td {
-    border: none;
+     border:none;
 }
